@@ -1,0 +1,18 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "A PWA text editor application",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js --ignore client"
+  },
+  "keywords": [],
+  "author": "Justmacn",
+  "license": "None",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
